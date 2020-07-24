@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnSignIn.setOnClickListener{
-            val signin_intent = Intent(this, HotelList::class.java)
+            val signin_intent = Intent(this, SecondActivity::class.java)
             startActivity(signin_intent)
 
 
          btnSignUp.setOnClickListener{
-             val signup_intent = Intent(this, HotelList::class.java)
+             val signup_intent = Intent(this, SecondActivity::class.java)
              startActivity(signup_intent)
          }
         }
