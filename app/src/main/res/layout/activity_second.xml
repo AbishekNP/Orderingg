@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="cursive"
+        android:fontFamily="sans-serif-condensed-medium"
         android:text="Meal Category:"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
@@ -41,7 +41,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="cursive"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="Vegetarian"
             android:textColor="#FFFFFF"
             android:textSize="30sp"
@@ -51,7 +51,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="cursive"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="Non-Vegetarian"
             android:textColor="#FFFFFF"
             android:buttonTint="#FFFFFF"
@@ -59,10 +59,10 @@
     </RadioGroup>
 
     <ImageView
+        android:id="@+id/btnhotel"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@drawable/right_arrow"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/radioGroup" />
